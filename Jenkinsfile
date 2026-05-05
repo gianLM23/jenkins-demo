@@ -2,12 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Clonar') {
-            steps {
-                git 'https://github.com/gianLM23/jenkins-demo.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 echo 'Construyendo aplicación...'
