@@ -1,1 +1,1 @@
-print("Hola desde Jenkins 🚀")
+print("Hola desde Jenkins")
